@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid red; */
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 180px;
+    width: 100%;
+    background-image: url(./Group_219_dc85e004-db63-44b1-bd09-d94290a75802.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 30px;
+    position: fixed;
+    top: 0px;
+}
+#first{
+    margin-top: 160px;
+}
+.nav img{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    top: -10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: rgb(183, 84, 3);
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+}
+.box img{
+    height: 100%;
+    width:100%;
+}
+.text{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 50px;
+    text-align: center;
+    color: #8E024E;
+}
+.text img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#inclusive{
+    height: 100vh;
+    margin-block: 40px;
+}
+#inclusive2{
+    height: 100vh;
+}
+.texts{
+    padding-block: 40px;
+    display: flex;
+    justify-content: center;
+}
+.design{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 40px;
+}
+.design img{
+    width: 450px;
+}
+.img-part{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.tm{
+    margin-bottom: 50px;
+}
+.tm img{
+    width: 350px;
+}
+.tm h3{
+    color:#8E024E;
+}
+.boxx{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.boxx img{
+    width: 350px;
+    margin-bottom: 40px;
+}
+.biggest-img{
+    height: 180vh;
+    width: 100%;
+}
+.biggest-img img{
+    height: 100%;
+    width: 100%;
+}
+.locate{
+    height: 55vh;
+    width: 100%;
+}
+.locate img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./Group_165.png);
+    margin-block: 10px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.homepage{
+    height: 80%;
+    width: 100%;
+    display: flex;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.353);
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    justify-content: start;
+}
+.left p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.796);
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    justify-content: start;
+}
+.right p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.796);
+}
+.last{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-inline: 80px;
+}
+
+/* responsive code started */
+@media (max-width:768px) {
+    ul{
+        font-size: 0.7em;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .homepage{
+        height: auto;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        padding: 50px;
+    }
+    .right{
+        width: 100%;
+        padding: 50px;
+    }
+    .left p{
+        font-size: 0.7em;
+    }
+    .right p{
+        font-size: 0.7em;
+    }
+    .footer a{
+        font-size: 0.7em;
+    }
+    .last{
+        padding-block: 20px;
+    padding-inline: 20px;
+    }
+    .biggest-img{
+        height: 150vh;
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .nav{
+        height: 150px;
+    }
+    #first{
+        margin-top: 140px;
+    }
+    .nav img{
+        top: 5px;
+        height: 100px;
+        width: 80px;
+    }
+    ul li{
+        display: none;
+    }
+    #home{
+        display: inline;
+        font-size: 1.2em;
+    }
+    .text h3 br{
+display: none;
+    }
+    .text{
+        padding-inline: 20px;
+        font-size: 0.8em;
+    }
+    .box{
+        height: 70vh;
+    }
+    #inclusive{
+        height: 70vh;
+        margin-block: 40px;
+    }
+    #inclusive2{
+        height: 70vh;
+    }
+    .locate{
+        height: 45vh;
+    }
+    
+    .biggest-img{
+        height: 100vh;
+    }
+    
+}
+
